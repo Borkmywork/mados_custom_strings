@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016, 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_preventpower">Overschrijf aan / uit-toets</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_preventpower">Een app toestaan dat de aan / uit-toets wordt overschreven.</string>
+
+    <!-- Fast Charge -->
+    <string name="fc_active_notification_title">Snelle-oplaad instellingen</string>
+    <string name="fc_active_notification_message">"Aanraken voor snelle-oplaad instellingen"</string>
+    
+    <!-- Long-press back kill application -->
+    <string name="app_killed_message">Applicatie gestopt</string>
+
+    <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
+    <string name="lock_to_app_toast_no_navbar">Om dit scherm te ontgrendelen, houdt u de "Terug" knop ingedrukt.</string>
+
+    <string name="singlehandmode_click_hint_message">Raak buiten het scherm aan om de mini-schermweergave te verlaten</string>
+
+    <!-- mad custom power menu -->
+    <!-- Reboot Dialog -->
+    <string name="global_action_reboot">Herstarten</string>
+    <!-- Button to reboot the phone in reboot menu -->
+    <string name="reboot_reboot">Herstarten</string>
+    <!-- Button to reboot the phone into recovery in reboot menu-->
+    <string name="reboot_recovery">Herstelopties</string>
+    <!-- Button to reboot the phone into bootloader in reboot menu -->
+    <string name="reboot_bootloader">Bootlader</string>
+    <!-- Button to soft reboot the device in reboot menu -->
+    <string name="reboot_soft">Lichte herstart</string>
+    <!-- Reboot Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">Je tablet zal herstarten.</string>
+    <string name="reboot_confirm" product="default">Je telefoon zal herstarten.</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">Herstarten\u2026</string>
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">Schermopname</string>
+    <!-- screenshot on the power menu -->
+    <string name="powermenu_screenshot">Schermopname</string>
+    <!-- Powermenu Torch -->
+    <string name="global_action_torch">Zaklamp</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">Huidige</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">On-The-Go Mode</string>
+</resources>
