@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2015 The CyanogenMod Project
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+    <string name="pref_camera_aspectratio_wide">Breedbeeld</string>
+
+    <!-- format for entries in the picture size menu. Parameter one is aspect ratio
+         parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
+         NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
+         will be multiplied by 100 as those languages want to count by ten thousands -->
+    <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f megapixels</string>
+
+    <!-- Settings screen, scene mode -->
+    <string name="pref_camera_scenemode_entry_antimotionblur">Beweegvervagingsreductie</string>
+    <string name="pref_camera_scenemode_entry_aqua">Water</string>
+    <string name="pref_camera_scenemode_entry_ar">Augmented reality</string>
+    <string name="pref_camera_scenemode_entry_asd">Beste opname</string>
+    <string name="pref_camera_scenemode_entry_baby">Baby</string>
+    <string name="pref_camera_scenemode_entry_backgroundblur">Achtergrondvervaging</string>
+    <string name="pref_camera_scenemode_entry_backlight">Achtergrondverlichting</string>
+    <string name="pref_camera_scenemode_entry_backlightportrait">Achtergrond verlichting portret</string>
+    <string name="pref_camera_scenemode_entry_barcode">Barcode</string>
+    <string name="pref_camera_scenemode_entry_beach">Strand</string>
+    <string name="pref_camera_scenemode_entry_beauty">Beauty</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Kaarslicht</string>
+    <string name="pref_camera_scenemode_entry_cine">Cine</string>
+    <string name="pref_camera_scenemode_entry_closeup">Closeup</string>
+    <string name="pref_camera_scenemode_entry_dark">Donker</string>
+    <string name="pref_camera_scenemode_entry_dish">Gerecht</string>
+    <string name="pref_camera_scenemode_entry_duskdawn">Morgenlicht</string>
+    <string name="pref_camera_scenemode_entry_document">Document</string>
+    <string name="pref_camera_scenemode_entry_fallcolor">Herfstkleur</string>
+    <string name="pref_camera_scenemode_entry_fireworks">Vuurwerk</string>
+    <string name="pref_camera_scenemode_entry_flowers">Bloemen</string>
+    <string name="pref_camera_scenemode_entry_handheldtwilight">In de hand gehouden schemerlicht</string>
+    <string name="pref_camera_scenemode_entry_highsensitivity">Hoge gevoeligheid</string>
+    <string name="pref_camera_scenemode_entry_indoor">Binnen</string>
+    <string name="pref_camera_scenemode_entry_landscape">Landschap</string>
+    <string name="pref_camera_scenemode_entry_mix_illuminant">Gemixte belichting</string>
+    <string name="pref_camera_scenemode_entry_mood">Humeur</string>
+    <string name="pref_camera_scenemode_entry_nightportrait">Nachtportret</string>
+    <string name="pref_camera_scenemode_entry_nightindoor">S'nachts indoor</string>
+    <string name="pref_camera_scenemode_entry_oldfilm">Oude film</string>
+    <string name="pref_camera_scenemode_entry_pet">Huisdier</string>
+    <string name="pref_camera_scenemode_entry_portrait">Portret</string>
+    <string name="pref_camera_scenemode_entry_snow">Sneeuw</string>
+    <string name="pref_camera_scenemode_entry_softskin">Zachte huid</string>
+    <string name="pref_camera_scenemode_entry_sports">Sport</string>
+    <string name="pref_camera_scenemode_entry_spotlight">Spotlight</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">Stevige Foto</string>
+    <string name="pref_camera_scenemode_entry_supernight">Donkere nacht</string>
+    <string name="pref_camera_scenemode_entry_sweepstitch">Veeg steken</string>
+    <string name="pref_camera_scenemode_entry_text">Tekst</string>
+    <string name="pref_camera_scenemode_entry_theatre">Theater</string>
+    <string name="pref_camera_scenemode_entry_whiteboard">Whiteboard</string>
+
+    <!-- Settings screen, focus mode -->
+    <string name="pref_camera_focusmode_entry_continuous">Voortdurend</string>
+    <string name="pref_camera_focusmode_entry_mw_continuous">Voortdurende (MW)</string>
+    <string name="pref_camera_focusmode_entry_extended">Uitbreiding</string>
+    <string name="pref_camera_focusmode_entry_facedetect">Gezichtsdetectie</string>
+    <string name="pref_camera_focusmode_entry_facepriority">Gezichtsprioriteit</string>
+    <string name="pref_camera_focusmode_entry_fixed">Gespannen</string>
+    <string name="pref_camera_focusmode_entry_normal">Normaal</string>
+    <string name="pref_camera_focusmode_entry_portrait">Portret</string>
+    <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfocaal</string>
+
+    <!-- Color effects -->
+    <string name="pref_camera_coloreffect_entry_washed">Gewassen</string>
+    <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage warm</string>
+    <string name="pref_camera_coloreffect_entry_vintage_cold">Vintage koud</string>
+    <string name="pref_camera_coloreffect_entry_point_blue">Blauw punt</string>
+    <string name="pref_camera_coloreffect_entry_point_green">Groen punt</string>
+    <string name="pref_camera_coloreffect_entry_point_red_yellow">Rood-geel punt</string>
+    <string name="pref_camera_coloreffect_entry_cartoonize">Karikaturiseren</string>
+
+    <!-- Power shutter -->
+    <string name="pref_camera_power_shutter_default" translatable="false">Uit</string>
+
+    <!-- Touch focus duration -->
+    <string name="pref_camera_focustime_title">Touch focus duration</string>
+    <string name="pref_camera_focustime_default" translatable="false">3000</string>
+    <string name="pref_camera_video_focustime_default" translatable="false">200</string>
+
+    <string name="pref_camera_focustime_entry_0">0s</string>
+    <string name="pref_camera_focustime_entry_3">3s</string>
+    <string name="pref_camera_focustime_entry_5">5s</string>
+    <string name="pref_camera_focustime_entry_10">10s</string>
+    <string name="pref_camera_focustime_entry_infinite">Oneindig</string>
+
+    <!-- Grid -->
+    <string name="pref_grid_title">Grid</string>
+    <string name="pref_grid_default" translatable="false">uit</string>
+
+    <!-- JPEG Quality -->
+    <string name="pref_camera_jpegquality_entry_0">Laag</string>
+    <string name="pref_camera_jpegquality_entry_1">Standaard</string>
+    <string name="pref_camera_jpegquality_entry_2">Hoog</string>
+
+    <!-- ISO -->
+    <string name="pref_camera_iso_entry_auto">Auto</string>
+    <string name="pref_camera_iso_entry_iso100">ISO100</string>
+    <string name="pref_camera_iso_entry_iso200">ISO200</string>
+    <string name="pref_camera_iso_entry_iso400">ISO400</string>
+    <string name="pref_camera_iso_entry_iso800">ISO800</string>
+    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+
+    <!-- Contrast -->
+    <string name="pref_camera_contrast_entry_low">Laag</string>
+    <string name="pref_camera_contrast_entry_medium">Medium</string>
+    <string name="pref_camera_contrast_entry_high">Hoog</string>
+
+    <!-- Saturation -->
+    <string name="pref_camera_saturation_entry_low">Laag</string>
+    <string name="pref_camera_saturation_entry_medium">Medium</string>
+    <string name="pref_camera_saturation_entry_high">Hoog</string>
+
+    <!-- Anti Banding -->
+    <string name="pref_camera_antibanding_entry_0">Uit</string>
+    <string name="pref_camera_antibanding_entry_1">50 Hz</string>
+    <string name="pref_camera_antibanding_entry_2">60 Hz</string>
+    <string name="pref_camera_antibanding_entry_3">Auto</string>
+
+    <!-- Storage -->
+    <string name="pref_camera_storage_default" translatable="false">0</string>
+    <string name="pref_camera_storage_entry_0">Telefoon</string>
+    <string name="pref_camera_storage_entry_1">SD Kaart</string>
+
+    <!-- Settings titles -->
+    <string name="pref_camera_settings_title">Instellingen</string>
+    <string name="pref_camera_settings_photo_category">Foto</string>
+    <string name="pref_camera_settings_video_category">Video</string>
+    <string name="pref_camera_settings_others_category">Andere</string>
+
+    <string name="pref_camera_picture_size_title">Foto formaat</string>
+    <string name="pref_camera_jpeg_quality_title">Foto kwaliteit</string>
+    <string name="pref_camera_iso_title">ISO</string>
+    <string name="pref_camera_saturation_title">Verzadiging</string>
+    <string name="pref_camera_contrast_title">Contrast</string>
+    <string name="pref_camera_anti_banding_title">Anti Banding</string>
+
+    <string name="pref_camera_video_quality_title">Video kwaliteit</string>
+    <string name="pref_camera_time_lapse_title">Time lapse</string>
+    <string name="pref_camera_focus_mode_title">Focus modus</string>
+
+    <string name="pref_camera_face_detection_title">Gezichtsdetectie</string>
+    <string name="pref_camera_storage_title">Opslag</string>
+    <string name="pref_camera_gps_location_title">GPS Locatie</string>
+    <string name="pref_camera_shutter_sound_title">Sluitergeluid</string>
+    <string name="pref_camera_power_shutter_title">Power shutter</string>
+    <string name="pref_camera_exposure_title">Exposure</string>
+    <string name="pref_camera_white_balance_title">Witbalans</string>
+
+</resources>
